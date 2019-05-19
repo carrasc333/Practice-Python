@@ -14,7 +14,7 @@ now = datetime.datetime.now()
 
 name = raw_input("What is your name: ")
 age = int(raw_input("What is your age: "))
-agey = int(100 - age + now.year)
-age1 = int(100 - age)
-print(name + " will turn 100 in " + str(age1) + " years, in the year " + str(agey))
+ageyear = int(100 - age + now.year)
+years2onehundred = int(100 - age)
+print(name + " will turn 100 in " + str(years2onehundred) + " years, in the year " + str(ageyear))
 
